@@ -10,17 +10,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string[] StringsArray = { "GeekBrains", "HelloWorld", "abc", "hjiufhwei", "fjfue", "12f", "fsd", "ffdfew", "124" };
+            string[] StringsArray = { "GeekBrains", "HelloWorld", "abc", "hjiufhwei", "ffe", "12f", "fsd", "ffdfew", "124" };
             string[] NewArray = StringsArray.Where(f => f.Length <= 3).ToArray();
-            foreach(var str in NewArray)
-            {
-                Console.WriteLine(str);
-                
-            }
+            Console.Write(string.Join(",", NewArray));
             Console.ReadLine();
         }
 
-        
+
 
     }
 }
