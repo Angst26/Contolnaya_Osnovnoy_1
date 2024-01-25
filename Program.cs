@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 
-
 namespace ConsoleApp2
 {
     internal class Program
@@ -13,8 +12,5 @@ namespace ConsoleApp2
             Console.Write(string.Join(",", NewArray));
             Console.ReadLine();
         }
-
-
-
     }
 }
